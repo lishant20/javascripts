@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>buttons</title>
+    <style>
+      .subscribe-button {
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border: none;
+        border-radius: 2px;
+        padding: 10px 15px;
+        margin-right: 8px;
+        cursor: pointer;
+        transition: opacity 0.15s;
+        vertical-align: top;
+      }
+
+      .subscribe-button:hover {
+        opacity: 0.8;
+      }
+
+      .join-button {
+        background-color: white;
+        color: rgb(29, 155, 240);
+        border: 1px rgb(29, 155, 240) solid;
+        border-radius: 2px;
+        padding: 9px 15px;
+        margin-right: 8px;
+        cursor: pointer;
+        transition: background-color 0.15s,
+         color 0.15s;
+        vertical-align: top;
+      }
+
+      .join-button:hover {
+        background-color: rgb(6, 95, 212);
+        color: white; 
+      }
+
+      .join-button:active {
+        opacity: 0.7;
+      }
+
+      .tweet-button {
+        background-color: rgb(2, 158, 255);
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        border: none;
+        border-radius: 18px;
+        padding: 10px 20px;
+        margin-right: 8px;
+        cursor: pointer;
+        vertical-align: top;
+      }
+
+      .tweet-button:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+      }
+    </style>
+  </head>
+  <body>
+    <button class="subscribe-button">SUBSCRIBE</button>
+    <button class="join-button">JOIN</button>
+    <button class="tweet-button">Tweet</button>
+  </body>
+</html>
